@@ -26,6 +26,6 @@
     extern int i;
     extern int e;
     extern unsigned int tiempo;
-    extern unsigned int duracion;
+    extern long int duracion;
 
 #endif

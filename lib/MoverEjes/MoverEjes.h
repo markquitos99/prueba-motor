@@ -7,7 +7,7 @@
 #include "Variables.h"
 #include "Estados.h"
 
-void moverEje(int stepPin, int dirPin, int steps, int enablePin);
+void moverMotor(int stepPin, int dirPin, int steps, int enablePin);
 void moverXstate(int pasos);
 void moverYstate(int pasos);
 

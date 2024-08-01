@@ -15,4 +15,6 @@ void pines(){
   ledcAttachPin(STEP_PIN_X,0);
   ledcAttachPin(STEP_PIN_Y,0);
   ledcAttachPin(STEP_PIN_E,0);
+  digitalWrite(ENABLE_PIN_X,HIGH);
+  digitalWrite(ENABLE_PIN_Y,HIGH);
 }

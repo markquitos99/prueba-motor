@@ -21,5 +21,6 @@
     };
 
     extern State Estados;
+    extern motor etapa;
 
 #endif

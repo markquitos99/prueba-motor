@@ -7,4 +7,4 @@ int i = 0;
 int e = 0;
 // Variables para el control de los motores
 unsigned int tiempo=0;
-unsigned int duracion=0;
+long int duracion=0;
