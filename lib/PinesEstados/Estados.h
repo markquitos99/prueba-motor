@@ -6,16 +6,18 @@
     #endif    
 
     enum State {
-    ESPERA,
-    MOVER_X,
-    MOVER_Y,
-    EXTRUSOR,
-    INICIO_X,
-    INICIO_Y,
-    CONVERSION_Y_SETUP_VARIABLES,
-    DIRECCION,
-    MOVIMIENTO,
-    FIN
+        ESPERA,
+        MOVER_X,
+        MOVER_Y,
+        EXTRUSOR,
+        INICIO_X,
+        INICIO_Y
+    };
+    enum motor{
+        CONVERSION_Y_SETUP_VARIABLES,
+        DIRECCION,
+        MOVIMIENTO,
+        FIN
     };
 
     extern State Estados;
