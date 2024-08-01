@@ -21,9 +21,6 @@ void inicioYstate() {
 void realizarHoming(int stepPin, int dirPin, int endStopPin) {
   while (digitalRead(endStopPin) == HIGH) {
     digitalWrite(dirPin, LOW);
-    digitalWrite(stepPin, HIGH);
-    delayMicroseconds(1000);
-    digitalWrite(stepPin, LOW);
-    delayMicroseconds(1000);
+    ledcWrite(0,32768);
   }
 }
