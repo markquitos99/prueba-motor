@@ -11,7 +11,11 @@
     MOVER_Y,
     EXTRUSOR,
     INICIO_X,
-    INICIO_Y
+    INICIO_Y,
+    CONVERSION_Y_SETUP_VARIABLES,
+    DIRECCION,
+    MOVIMIENTO,
+    FIN
     };
 
     extern State Estados;
